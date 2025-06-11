@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Dashboard</title>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 200px;
+      padding: 15px;
+    }
+
+    .icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+      color: #f9a825; 
+    }
+
+    .city {
+      font-weight: bold;
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+
+    .temp {
+      font-size: 26px;
+      margin: 5px 0;
+    }
+
+    .condition {
+      color: gray;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Weather Dashboard</h1>
+
+  <div class="container">
+
+    <div class="card">
+      <div class="icon"><i class="fas fa-sun"></i></div>
+      <div class="city">Los Angeles</div>
+      <div class="temp">75°F</div>
+      <div class="condition">Sunny</div>
+    </div>
+
+    <div class="card">
+      <div class="icon"><i class="fas fa-cloud-sun"></i></div>
+      <div class="city">New York</div>
+      <div class="temp">68°F</div>
+      <div class="condition">Partly Cloudy</div>
+    </div>
+
+    <div class="card">
+      <div class="icon"><i class="fas fa-cloud-showers-heavy"></i></div>
+      <div class="city">Seattle</div>
+      <div class="temp">59°F</div>
+      <div class="condition">Rainy</div>
+    </div>
+
+    <div class="card">
+      <div class="icon"><i class="fas fa-snowflake"></i></div>
+      <div class="city">Denver</div>
+      <div class="temp">32°F</div>
+      <div class="condition">Snow</div>
+    </div>
+
+    <div class="card">
+      <div class="icon"><i class="fas fa-bolt"></i></div>
+      <div class="city">Houston</div>
+      <div class="temp">80°F</div>
+      <div class="condition">Thunderstorm</div>
+    </div>
+
+  </div>
+
+</body>
+</html>
